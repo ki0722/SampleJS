@@ -159,6 +159,7 @@ function Calc02() {
 
 
 //12 クリックイベントに反応するイベントリスナーを定義
+//JavaScript を HTML から完全に独立させる.事例10 の計算をイベントリスナーを使って書き換えた事例です。
 window.onload = function() {
     var btn = document.getElementById('CALC03');
     btn.addEventListener('click', Calc03, false);
